@@ -2,6 +2,7 @@
 	font-family: 'Lato', _sans;
 }
 
+
 body {
 	background-image: url("background.jpg");
 	background-repeat: no-repeat;
@@ -10,6 +11,10 @@ body {
 	webkit-filter: grayscale(100%);
 	min-height: 100%;
 	min-width: 100%;
+}
+
+a:hover {
+	color: #660000;
 }
 
 #container {
@@ -33,6 +38,13 @@ body {
 	color: black;
 }
 
+#nav a:hover {
+	color: #660000;
+}
+
+#nav li {
+	margin-right: 15px;
+}
 
 .content {
 	font-size: 16px;
@@ -42,5 +54,9 @@ body {
 li {
 	display: inline;
 	text-decoration: none;
+}
+
+.footer li {
+	margin-right: 20px;
 }
 
