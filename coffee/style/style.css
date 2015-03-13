@@ -1,6 +1,7 @@
 body {
 	font-family: 'Lora', serif;
 	font-size: 16px;
+	border: 1px solid green;
 }
 
 header {
@@ -26,8 +27,11 @@ a {
 	font-size: 18px;
 }
 
+
 .content {
 	overflow: hidden;
+	width: 80%;
+	margin: auto;
 }
 
 section {
@@ -40,6 +44,7 @@ h3 {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: bold;
+	padding-top: 10px;
 }
 
 footer {
