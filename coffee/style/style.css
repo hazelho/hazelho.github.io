@@ -1,6 +1,6 @@
 body {
 	font-family: 'Lora', serif;
-	font-size: 16px;
+	font-size: 18px;
 	border: 1px solid green;
 }
 
@@ -15,6 +15,7 @@ header {
 	border: 1px solid green;
 }
 
+
 li {
 	display: inline;
 	padding: 20px;
@@ -27,6 +28,20 @@ a {
 	font-size: 18px;
 }
 
+p {
+	line-height: 25px;
+}
+
+img {
+	margin-top: 20px;
+}
+
+#navbar {
+	background-color: rgb(22, 7, 2);
+	height: 20px;
+	padding: 8px;
+	margin-top: 20px;	
+}
 
 .content {
 	overflow: hidden;
@@ -36,19 +51,22 @@ a {
 
 section {
 	float: left;
-	width: 50%;
+	width: 42%;
 	text-align: center;
+	padding: 40px 4%;
 }
 
 h3 {
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: bold;
-	padding-top: 10px;
+	margin-bottom: 15px
 }
 
 footer {
 	background-color: rgb(22, 7, 2);
+	font-size: 1em;
 	text-align: center;
+	padding: 40px 0;
 	color: #cebb99;
 }
