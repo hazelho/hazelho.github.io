@@ -1,0 +1,62 @@
+.container {
+	width: 1000px;
+	margin: auto;
+	font-family:'Helvetica', Arial, sans-serif;
+}
+
+header {
+	border-bottom: 2px solid black;
+}
+
+body {
+	font-family: 'Helvetica', Arial, sans-serif;
+	font-size: 18px;
+}
+
+h1, h2 {
+    font-family: 'league_gothicregular', sans-serif;
+}
+
+h1 {
+	font-size: 5.7em;
+	max-width: 370px
+}
+
+h2 {
+	font-size: 2em;
+	padding: 25px 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+section {
+	max-width: 650px;
+	float: right;
+	padding: 0;
+}
+
+p {
+	line-height: 25px;
+}
+
+/*#nav li {
+	display: inline;
+	float: right;
+	padding-right: 10px;
+}*/
+
+footer {
+	font-weight: bold;
+}
+
+
+
+
+
+
+
