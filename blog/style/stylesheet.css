@@ -1,11 +1,11 @@
 .container {
-	width: 1000px;
+	width: 85%;
 	margin: auto;
 	font-family:'Helvetica', Arial, sans-serif;
 }
 
 header {
-	border-bottom: 2px solid black;
+	margin-top: 10px;
 }
 
 body {
@@ -18,13 +18,24 @@ h1, h2 {
 }
 
 h1 {
-	font-size: 5.7em;
-	max-width: 370px
+	font-size: 5em;
+	max-width: 50%;
+	min-width: 50%;
+	float: left;
 }
 
 h2 {
 	font-size: 2em;
-	padding: 25px 0;
+	padding: 0;
+}
+
+h1 a {
+	font-family: 'league_gothicregular', sans-serif;
+}
+
+h1 a:hover {
+	color: black;
+	background-color: #fff;
 }
 
 a {
@@ -34,26 +45,77 @@ a {
 	font-size: 0.9em;
 }
 
-section {
-	max-width: 650px;
-	float: right;
-	padding: 0;
+a:hover {
+	color: #fff;
+	background-color: black;
+	padding: 5px;
+}
+
+section .main {
+	border-top: 2px solid black;
+} /*why isn't the black border showing above?*/
+
+article {
+	max-width: 75em;
+}
+
+section .content {
+	max-width: 65%;
+	float: left;
+	margin-left: 40%;
+	padding-top: 20px;
 }
 
 p {
 	line-height: 25px;
 }
 
-/*#nav li {
+#nav li {
 	display: inline;
 	float: right;
 	padding-right: 10px;
-}*/
+	margin: 10px;
+	margin-top: 65px;
+}
 
-footer {
+.sidebar ul {
+	display: inline;
+	font-weight: bold;
+	line-height: 30px;
+	float: left;
+	position: fixed;
+	left: 95px;
+	top: 150px;
+}
+
+.date {
+	font-size: 14px;
 	font-weight: bold;
 }
 
+.post {
+	margin-bottom: 30px;
+}
+
+footer {
+	font-weight: bold;
+	clear: both;
+	border-top: 2px solid black;
+	position: relative;
+	bottom: 10px;
+	width: 85%;
+}
+
+/* About page */
+
+.main_about {
+	width: 100%;
+	line-height: 4em;
+}
+
+.main_about p {
+	line-height: 50px;
+}
 
 
 
